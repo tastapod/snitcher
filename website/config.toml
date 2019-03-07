@@ -1,4 +1,4 @@
-baseURL = "https://tastapod.github.io/snitcher"
+baseURL = "https://snitcher.dannorth.net"
 languageCode = "en-gb"
 title = "Little Snitch Rule Generator"
 theme = "ananke"

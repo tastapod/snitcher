@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tastapod.github.io/snitcher/categories/</loc>
+    <loc>https://snitcher.dannorth.net/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tastapod.github.io/snitcher/</loc>
+    <loc>https://snitcher.dannorth.net/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://tastapod.github.io/snitcher/tags/</loc>
+    <loc>https://snitcher.dannorth.net/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
