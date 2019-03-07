@@ -5,10 +5,7 @@ URL="${URL:-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts}"
 NAME="${NAME:-Steven Black}"
 
 HOSTS=$(curl "$URL" |\
-    grep '^0\.0\.0\.0' | \
-    awk '{print $2}' |\
-    fgrep -v --line-regexp '0.0.0.0' |\
-    sed 's/\(.*\)/    "\1",/' |\
+    awk '$1 == "0.0.0.0" && $2 != "0.0.0.0" {printf "    \"%s\",\n", $2}' |\
     sort
 )
 
