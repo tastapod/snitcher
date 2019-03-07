@@ -17,3 +17,5 @@ These groups are generated from the raw host files on Steven Black's [unified ho
 The scripts for the rule group generator and the source for this website are at https://github.com/tastapod/snitcher.
 
 The site was built using [Hugo](https://gohugo.io/) and uses the [vanilla-bootstrap](https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/) theme.
+
+&copy; 2019 Dan North, [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
