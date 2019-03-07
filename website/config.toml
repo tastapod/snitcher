@@ -1,6 +1,6 @@
 baseURL = "https://snitcher.dannorth.net"
 languageCode = "en-gb"
-title = "Little Snitch Rule Generator"
+title = "Little Snitch Rule Groups"
 theme = "vanilla-bootstrap"
 
 publishDir = "../docs"
