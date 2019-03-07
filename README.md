@@ -21,6 +21,18 @@ We assume the raw host file takes the following form:
 All blacklist hosts have the IP address `0.0.0.0`. The script parses out the hostnames and adds them
 to a JSON template representing the Little Snitch rule group. This is written to stdout.
 
+The template looks like this:
+
+```json
+{
+  "description" : "Generated from $URL",
+  "name" : "$NAME",
+  "denied-remote-hosts" : [
+$HOSTS
+  ]
+}
+```
+
 ## Usage
 
 `./snitcher.sh`
