@@ -5,6 +5,8 @@ description: Rules generated from Steven Black's blocklists
 
 # The Rule Groups
 
+These groups are generated from Steven Black's [unified hosts project](https://github.com/StevenBlack/hosts).
+
 [Unified hosts (adware + malware)](/rules/unified.lsrules)
 
 [Unified + fake news](/rules/fakenews.lsrules)
