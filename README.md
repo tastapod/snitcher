@@ -1,8 +1,8 @@
 # Snitcher
 
-Generate a [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) [rule
-group](https://help.obdev.at/littlesnitch/lsc-rule-group-subscriptions) from one of Steven Black's
-[host blocklists](https://github.com/StevenBlack/hosts).
+Generate a [rule group](https://help.obdev.at/littlesnitch/lsc-rule-group-subscriptions) for [Little
+Snitch](https://www.obdev.at/products/littlesnitch/index.html) from one of Steven Black's [host
+blocklists](https://github.com/StevenBlack/hosts).
 
 We assume the raw host file takes the following form:
 
