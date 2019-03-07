@@ -1,3 +1,20 @@
 baseURL = "https://tastapod.github.io/snitcher"
 languageCode = "en-gb"
 title = "Little Snitch Rule Generator"
+theme = "ananke"
+
+publishDir = "../docs"
+staticDir = "static"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
