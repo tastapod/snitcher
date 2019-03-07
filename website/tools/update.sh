@@ -5,8 +5,8 @@ SNITCHER="../../snitcher.sh"
 
 while read FILE URL NAME; do
     echo "Processing $NAME..."
-    URL="$URL" NAME="$NAME" "$SNITCHER" > "$TARGET_DIR/$FILE.temp"
-    mv "$TARGET_DIR/$FILE.temp" "$TARGET_DIR/$FILE"
+    OUT="$TARGET_DIR/$FILE"
+    URL="$URL" NAME="$NAME" "$SNITCHER" > "$OUT.temp" && mv "$OUT.temp" "$OUT"
 done <<-EOT
 unified.lsrules     https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts                        Steven Black Unified
 fakenews.lsrules    https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts    Steven Black Unified + fake news

@@ -1,13 +1,13 @@
 #!/bin/bash
 
+set -e # Bail if anything goes wrong
 
 URL="${URL:-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts}"
 NAME="${NAME:-Steven Black}"
 
-HOSTS=$(curl "$URL" |\
-    awk '$1 == "0.0.0.0" && $2 != "0.0.0.0" {printf "    \"%s\",\n", $2}' |\
-    sort
-)
+HOSTS=$(curl --silent "$URL" \
+    | awk '$1 == "0.0.0.0" && $2 != "0.0.0.0" {printf "    \"%s\",\n", $2}' \
+    | sort)
 
 HOSTS="${HOSTS%?}" # remove trailing comma
 NOW=$(date +'%-s')
