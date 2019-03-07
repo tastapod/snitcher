@@ -1,19 +1,13 @@
 ---
-title: Index of Rule Groups
-description: Rules generated from Steven Black's blocklists
+title: "Index of Rule Groups"
 ---
 
-# The Rule Groups
+These groups are generated from the raw host files on Steven Black's
+[unified hosts project](https://github.com/StevenBlack/hosts).
 
-These groups are generated from Steven Black's [unified hosts project](https://github.com/StevenBlack/hosts).
-
-[Unified hosts (adware + malware)](/rules/unified.lsrules)
-
-[Unified + fake news](/rules/fakenews.lsrules)
-
-[Unified + gambling](/rules/gambling.lsrules)
-
-[Unified + porn](/rules/porn.lsrules)
-
-[Everything](/rules/everything.lsrules)
+- Unified (adware + malware) [rule group](/rules/unified.lsrules)
+- Unified + fake news [rule group](/rules/fakenews.lsrules)
+- Unified + gambling [rule group](/rules/gambling.lsrules)
+- Unified + porn [rule group](/rules/porn.lsrules)
+- Everything [rule group](/rules/everything.lsrules)
 
