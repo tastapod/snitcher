@@ -8,14 +8,21 @@ These groups are generated from the raw host files on Steven Black's [unified ho
 
 ## The rule groups
 
-- Unified (adware + malware) [rule group](/rules/unified.lsrules)
-- Unified + fake news [rule group](/rules/fakenews.lsrules)
-- Unified + gambling [rule group](/rules/gambling.lsrules)
-- Unified + porn [rule group](/rules/porn.lsrules)
-- Everything [rule group](/rules/everything.lsrules)
+- Unified (adware + malware) [subscribe][subscribe-unified], [rule group file](/rules/unified.lsrules)
+- Unified + fake news [subscribe][subscribe-unified-fakenews] [rule group file](/rules/fakenews.lsrules)
+- Unified + gambling [subscribe][subscribe-unified-gambling] [rule group file](/rules/gambling.lsrules)
+- Unified + porn [subscribe][subscribe-unified-porn] [rule group file](/rules/porn.lsrules)
+- Everything [subscribe][subscribe-everything] [rule group file](/rules/everything.lsrules)
 
 The scripts for the rule group generator and the source for this website are at https://github.com/tastapod/snitcher.
 
 The site was built using [Hugo](https://gohugo.io/) and uses the [vanilla-bootstrap](https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/) theme.
 
 &copy; 2019 Dan North, [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
+
+
+[subscribe-unified]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Fsnitcher%2Edannorth%2Enet%2Frules%2Funified%2Elsrules
+[subscribe-unified-fakenews]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Fsnitcher%2Edannorth%2Enet%2Frules%2Ffakenews%2Elsrules
+[subscribe-unified-gambling]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Fsnitcher%2Edannorth%2Enet%2Frules%2Fgambling%2Elsrules
+[subscribe-unified-porn]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Fsnitcher%2Edannorth%2Enet%2Frules%2Fporn%2Elsrules
+[subscribe-everything]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Fsnitcher%2Edannorth%2Enet%2Frules%2Feverything%2Elsrules
