@@ -6,6 +6,8 @@ This is a list of [rule groups](https://help.obdev.at/littlesnitch/lsc-rule-grou
 
 These groups are generated from the raw host files on Steven Black's [unified hosts project](https://github.com/StevenBlack/hosts).
 
+_Disclaimer: I make no claims or warranty for the veracity or accuracy of any of the source lists. In particular categorising something as "fake news" may be a matter of opinion. I just want to make them easier to consume from Little Snitch. I am not a lawyer. Use these at your own risk. You can always explicitly override false positives._
+
 ## The rule groups
 
 - Unified (adware + malware) [subscribe][subscribe-unified], [rule group file](/rules/unified.lsrules)
