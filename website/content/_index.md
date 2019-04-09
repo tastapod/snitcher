@@ -11,10 +11,10 @@ _Disclaimer: I make no claims or warranty for the veracity or accuracy of any of
 ## The rule groups
 
 - Unified (adware + malware) [subscribe][subscribe-unified], [rule group file][download-unified]
-- Unified + fake news [subscribe][subscribe-unified-fakenews] [rule group file][download-unified-fakenews]
-- Unified + gambling [subscribe][subscribe-unified-gambling] [rule group file][download-unified-gambling]
-- Unified + porn [subscribe][subscribe-unified-porn] [rule group file][download-unified-porn]
-- Everything [subscribe][subscribe-everything] [rule group file][download-everything]
+- Unified + fake news [subscribe][subscribe-unified-fakenews], [rule group file][download-unified-fakenews]
+- Unified + gambling [subscribe][subscribe-unified-gambling], [rule group file][download-unified-gambling]
+- Unified + porn [subscribe][subscribe-unified-porn], [rule group file][download-unified-porn]
+- Everything [subscribe][subscribe-everything], [rule group file][download-everything]
 
 The scripts for the rule group generator and the source for this website are at https://github.com/tastapod/snitcher.
 
