@@ -12,7 +12,7 @@ _Disclaimer: I make no claims or warranty for the veracity or accuracy of any of
 
 - Unified (adware + malware) [subscribe][subscribe-unified], [rule group file][download-unified]
 - Unified + fake news [subscribe][subscribe-unified-fakenews] [rule group file][download-unified-fakenews]
-- Unified + gambling [subscribe][subscribe-unified-gambling] [rule group file][down/ead-unified-gambling]
+- Unified + gambling [subscribe][subscribe-unified-gambling] [rule group file][download-unified-gambling]
 - Unified + porn [subscribe][subscribe-unified-porn] [rule group file][download-unified-porn]
 - Everything [subscribe][subscribe-everything] [rule group file][download-everything]
 
@@ -33,7 +33,7 @@ The site was built using [Hugo](https://gohugo.io/) and uses the [vanilla-bootst
 [download-unified-gambling]: https://rules.snitcher.dannorth.net/gambling.lsrules
 
 [subscribe-unified-porn]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Fporn%2Elsrules
-[download-unified-porn]: https://rules.snitcher.dannorth.net/gambling.lsrules
+[download-unified-porn]: https://rules.snitcher.dannorth.net/porn.lsrules
 
 [subscribe-everything]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Feverything%2Elsrules
 [download-everything]: https://rules.snitcher.dannorth.net/everything.lsrules
