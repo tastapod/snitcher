@@ -1,0 +1,19 @@
+baseURL = "https://snitcher.dannorth.net"
+languageCode = "en-gb"
+title = "Little Snitch Rule Groups"
+theme = "vanilla-bootstrap"
+
+publishDir = "../docs"
+staticDir = "static"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
