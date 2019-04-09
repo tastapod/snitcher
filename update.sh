@@ -1,7 +1,17 @@
 #!/bin/bash
 
-TARGET_DIR="../static/rules"
-SNITCHER="../../snitcher.sh"
+set -e
+
+if [[ $# != 1 ]]; then
+    echo "Usage: $0 target_dir"
+    exit 1
+fi
+
+TARGET_DIR="$1"
+HERE="$(cd $(dirname "$0") && /bin/pwd)"
+SNITCHER="$HERE/snitcher.sh"
+
+mkdir -p "$TARGET_DIR"
 
 while read FILE URL NAME; do
     echo "Processing $NAME..."
