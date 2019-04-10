@@ -4,6 +4,7 @@
   
   <url>
     <loc>https://snitcher.dannorth.net/categories/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
@@ -15,6 +16,7 @@
   
   <url>
     <loc>https://snitcher.dannorth.net/tags/</loc>
+    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   

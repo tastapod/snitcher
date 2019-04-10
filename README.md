@@ -44,3 +44,9 @@ The following environment variables affect the behaviour of `snitcher`:
 - `URL`: the source URL, which should produce what looks like a regular UNIX hosts file. Defaults to
   `https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts`.
 - `NAME`: the name for this rule group. Defaults to `Steven Black`.
+
+## Generating multiple rules files
+
+The website in the `docs/` directory is hosted on GitHub at https://snitcher.dannorth.net.
+The rules files are hosted on a different server so they can be dynamically updated.
+The `update.sh` script rebuilds these files every day based on a cron job.
