@@ -10,12 +10,13 @@ HOSTS=$(curl --silent "$URL" \
     | sort)
 
 HOSTS="${HOSTS%?}" # remove trailing comma
-NOW=$(date +'%-s')
+NOW="$(date --iso-8601=seconds --utc) UTC"
 
 cat <<-EOT
 {
   "description" : "Generated from $URL",
   "name" : "$NAME",
+  "denied-remote-notes" : "Retrieved on $NOW from list $NAME",
   "denied-remote-hosts" : [
 $HOSTS
   ]
