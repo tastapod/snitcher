@@ -1,7 +1,7 @@
 baseURL = "https://snitcher.dannorth.net"
 languageCode = "en-gb"
 title = "Little Snitch Rule Groups"
-theme = "vanilla-bootstrap"
+theme = "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme"
 
 publishDir = "../docs"
 staticDir = "static"
@@ -16,4 +16,3 @@ enableRobotsTXT = true
   changefreq = "monthly"
   priority = 0.5
   filename = "sitemap.xml"
-

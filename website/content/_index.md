@@ -16,7 +16,7 @@ _Disclaimer: I make no claims or warranty for the veracity or accuracy of any of
 - Unified + porn [subscribe][subscribe-unified-porn], [rule group file][download-unified-porn]
 - Everything [subscribe][subscribe-everything], [rule group file][download-everything]
 
-The scripts for the rule group generator and the source for this website are at https://github.com/tastapod/snitcher.
+The scripts for the rule group generator and the source for this website are at <https://github.com/tastapod/snitcher>.
 
 The site was built using [Hugo](https://gohugo.io/) and uses the [vanilla-bootstrap](https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/) theme.
 

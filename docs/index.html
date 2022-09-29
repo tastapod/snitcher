@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="generator" content="Hugo 0.55.0" />
+    <meta name="generator" content="Hugo 0.103.0" />
     <link rel="stylesheet" href="https://snitcher.dannorth.net/css/bootstrap.min.css">
     
     
@@ -74,8 +74,14 @@ video,
 audio {
   max-width: 100%;
 }
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: initial;
+}
 </style>
 </head>
+
   <body class="d-flex flex-column h-100">
     <div id="nav-border" class="container">
   <nav id="nav" class="nav justify-content-center">
@@ -84,6 +90,7 @@ audio {
   
   </nav>
 </div>
+
     <div class="container">
       <main id="main">
         
@@ -91,16 +98,10 @@ audio {
 <div id="home-jumbotron" class="jumbotron text-center">
 
   <h1>Little Snitch Rule Groups</h1>
-  
-
-<p>This is a list of <a href="https://help.obdev.at/littlesnitch/lsc-rule-group-subscriptions">rule groups</a> of blacklisted hosts you can subscribe to from <a href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a> version 4.1 onwards.</p>
-
+  <p>This is a list of <a href="https://help.obdev.at/littlesnitch/lsc-rule-group-subscriptions">rule groups</a> of blacklisted hosts you can subscribe to from <a href="https://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a> version 4.1 onwards.</p>
 <p>These groups are generated from the raw host files on Steven Black&rsquo;s <a href="https://github.com/StevenBlack/hosts">unified hosts project</a>.</p>
-
 <p><em>Disclaimer: I make no claims or warranty for the veracity or accuracy of any of the source lists. In particular categorising something as &ldquo;fake news&rdquo; may be a matter of opinion. I just want to make them easier to consume from Little Snitch. I am not a lawyer. Use these at your own risk. You can always explicitly override false positives.</em></p>
-
 <h2 id="the-rule-groups">The rule groups</h2>
-
 <ul>
 <li>Unified (adware + malware) <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Funified%2Elsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/unified.lsrules">rule group file</a></li>
 <li>Unified + fake news <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Ffakenews%2Elsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/fakenews.lsrules">rule group file</a></li>
@@ -108,12 +109,9 @@ audio {
 <li>Unified + porn <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Fporn%2Elsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/porn.lsrules">rule group file</a></li>
 <li>Everything <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Feverything%2Elsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/everything.lsrules">rule group file</a></li>
 </ul>
-
 <p>The scripts for the rule group generator and the source for this website are at <a href="https://github.com/tastapod/snitcher">https://github.com/tastapod/snitcher</a>.</p>
-
 <p>The site was built using <a href="https://gohugo.io/">Hugo</a> and uses the <a href="https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/">vanilla-bootstrap</a> theme.</p>
-
-<p>&copy; 2019 Dan North, <a href="https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE">all rights reserved</a></p>
+<p>© 2019-2022 <a href="https://github.com/tastapod/">Daniel Terhorst-North</a>, <a href="https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE">all rights reserved</a></p>
 
 
 </div>
@@ -132,6 +130,10 @@ audio {
 <script>
   feather.replace()
 </script>
+
+
+    
+
 
 
     
