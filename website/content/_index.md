@@ -20,8 +20,7 @@ The scripts for the rule group generator and the source for this website are at 
 
 The site was built using [Hugo](https://gohugo.io/) and uses the [vanilla-bootstrap](https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/) theme.
 
-&copy; 2019-2021 [Daniel Terhorst-North](https://github.com/tastapod/), [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
-
+&copy; 2019-2022 [Daniel Terhorst-North](https://github.com/tastapod/), [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
 
 [subscribe-unified]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Funified%2Elsrules
 [download-unified]: https://rules.snitcher.dannorth.net/unified.lsrules
