@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://snitcher.dannorth.net/categories/</loc>
+    <loc>https://gohugo-theme-ananke.pages.dev/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://snitcher.dannorth.net/</loc>
+    <loc>https://gohugo-theme-ananke.pages.dev/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://snitcher.dannorth.net/tags/</loc>
+    <loc>https://gohugo-theme-ananke.pages.dev/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
