@@ -18,9 +18,9 @@ _Disclaimer: I make no claims or warranty for the veracity or accuracy of any of
 
 The scripts for the rule group generator and the source for this website are at <https://github.com/tastapod/snitcher>.
 
-The site was built using [Hugo](https://gohugo.io/) and uses the [vanilla-bootstrap](https://themes.gohugo.io/vanilla-bootstrap-hugo-theme/) theme.
+The site was built using [Hugo](https://gohugo.io/) and uses the [Ananke](https://themes.gohugo.io/themes/gohugo-theme-ananke/) theme.
 
-&copy; 2019-2022 [Daniel Terhorst-North](https://github.com/tastapod/), [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
+&copy; [Daniel Terhorst-North](https://github.com/tastapod/), [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
 
 [subscribe-unified]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Funified%2Elsrules
 [download-unified]: https://rules.snitcher.dannorth.net/unified.lsrules

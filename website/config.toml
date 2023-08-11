@@ -1,18 +1,32 @@
-baseURL = "https://snitcher.dannorth.net"
+baseURL = "https://gohugo-theme-ananke.pages.dev"
 languageCode = "en-gb"
-title = "Little Snitch Rule Groups"
-theme = "github.com/zwbetz-gh/vanilla-bootstrap-hugo-theme"
-
 publishDir = "../docs"
-staticDir = "static"
+resourceDir = "../resources"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+title = "Little Snitch Rule Groups"
 
-MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-googleAnalytics = ""
+# SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 enableRobotsTXT = true
+googleAnalytics = ""
 
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[params]
+author = ""
+description = "Rule groups for Little Snitch based on David Black curated lists"
+favicon = ""
+site_logo = ""
+text_color = ""
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+background_color_class = "bg-mid-gray"
+recent_posts_number = 3
+custom_css = ["override.css"]
+
+[[params.ananke_socials]]
+# name = "twitter"
+# url = "https://twitter.com/tastapod"
