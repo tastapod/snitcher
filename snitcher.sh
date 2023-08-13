@@ -26,14 +26,14 @@ for part in part-*; do
   hosts="${hosts%?}" # remove trailing comma
 
   cat > "$target.tmp" <<-EOT && mv "$target.tmp" "$target"
-  {
-    "name" : "$NAME (part $part_num)",
-    "description" : "Generated from $URL",
-    "denied-remote-notes" : "Retrieved on $NOW from list $NAME",
-    "denied-remote-hosts" : [
-  $hosts
-    ]
-  }
+{
+  "name" : "$NAME (part $part_num)",
+  "description" : "Generated from $URL",
+  "denied-remote-notes" : "Retrieved on $NOW from list $NAME",
+  "denied-remote-hosts" : [
+$hosts
+  ]
+}
 EOT
   rm -f "$part"
 done
