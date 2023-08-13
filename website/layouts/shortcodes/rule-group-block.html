@@ -1,0 +1,14 @@
+### {{ .Get 1 }}
+
+{{ $prefix := .Get 0 }}
+{{ $part1 := printf "%s%s-00.lsrules" $.Page.Params.base $prefix }}
+{{ $part2 := printf "%s%s-01.lsrules" $.Page.Params.base $prefix }}
+
+- Part 1 [subscribe][{{$prefix}}-sub-1], [download][{{$prefix}}-dl-1]
+- Part 2 [subscribe][{{$prefix}}-sub-2], [download][{{$prefix}}-dl-2]
+
+[{{$prefix}}-sub-1]: x-littlesnitch:subscribe-rules?url={{ urlquery $part1 }}
+[{{$prefix}}-dl-1]: {{ $part1 }}
+
+[{{$prefix}}-sub-2]: x-littlesnitch:subscribe-rules?url={{ urlquery $part2 }}
+[{{$prefix}}-dl-2]: {{ $part2 }}

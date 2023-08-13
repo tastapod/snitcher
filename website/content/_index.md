@@ -1,7 +1,7 @@
 ---
 title: "Little Snitch Rule Groups"
+base: "https://rules.snitcher.dannorth.net/"
 ---
-
 This is a list of [rule groups](https://help.obdev.at/littlesnitch/lsc-rule-group-subscriptions) of blacklisted hosts you can subscribe to from [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) version 4.1 onwards.
 
 These groups are generated from the raw host files on Steven Black's [unified hosts project](https://github.com/StevenBlack/hosts).
@@ -10,29 +10,20 @@ _Disclaimer: I make no claims or warranty for the veracity or accuracy of any of
 
 ## The rule groups
 
-- Unified (adware + malware) [subscribe][subscribe-unified], [rule group file][download-unified]
-- Unified + fake news [subscribe][subscribe-unified-fakenews], [rule group file][download-unified-fakenews]
-- Unified + gambling [subscribe][subscribe-unified-gambling], [rule group file][download-unified-gambling]
-- Unified + porn [subscribe][subscribe-unified-porn], [rule group file][download-unified-porn]
-- Everything [subscribe][subscribe-everything], [rule group file][download-everything]
+{{% rule-group-block "unified" "Unified (adware + malware)" %}}
+
+{{% rule-group-block "fakenews" "Unified + fake news" %}}
+
+{{% rule-group-block "gambling" "Unified + gambling" %}}
+
+{{% rule-group-block "porn" "Unified + porn" %}}
+
+{{% rule-group-block "social" "Unified + social media" %}}
+
+{{% rule-group-block "everything" "Everything" %}}
 
 The scripts for the rule group generator and the source for this website are at <https://github.com/tastapod/snitcher>.
 
 The site was built using [Hugo](https://gohugo.io/) and uses the [Ananke](https://themes.gohugo.io/themes/gohugo-theme-ananke/) theme.
 
 &copy; [Daniel Terhorst-North](https://github.com/tastapod/), [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
-
-[subscribe-unified]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Funified%2Elsrules
-[download-unified]: https://rules.snitcher.dannorth.net/unified.lsrules
-
-[subscribe-unified-fakenews]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Ffakenews%2Elsrules
-[download-unified-fakenews]: https://rules.snitcher.dannorth.net/fakenews.lsrules
-
-[subscribe-unified-gambling]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Fgambling%2Elsrules
-[download-unified-gambling]: https://rules.snitcher.dannorth.net/gambling.lsrules
-
-[subscribe-unified-porn]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Fporn%2Elsrules
-[download-unified-porn]: https://rules.snitcher.dannorth.net/porn.lsrules
-
-[subscribe-everything]: x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules%2Esnitcher%2Edannorth%2Enet%2Feverything%2Elsrules
-[download-everything]: https://rules.snitcher.dannorth.net/everything.lsrules
