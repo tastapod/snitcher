@@ -2,7 +2,7 @@
 title: "Little Snitch Rule Groups"
 base: "https://rules.snitcher.dannorth.net/"
 ---
-This is a list of [rule groups](https://help.obdev.at/littlesnitch/lsc-rule-group-subscriptions) of blacklisted hosts you can subscribe to from [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) version 4.1 onwards.
+This is a list of [rule groups](https://help.obdev.at/littlesnitch/lsc-rule-group-subscriptions) of potentially suspicious hosts, which you can subscribe to from [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) version 4.1 onwards.
 
 These groups are generated from the raw host files on Steven Black's [unified hosts project](https://github.com/StevenBlack/hosts).
 
