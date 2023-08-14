@@ -5,6 +5,19 @@
     <link>https://gohugo-theme-ananke.pages.dev/</link>
     <description>Recent content on Little Snitch Rule Groups</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language><atom:link href="https://gohugo-theme-ananke.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-gb</language>
+    <copyright>Daniel Terhorst-North</copyright><atom:link href="https://gohugo-theme-ananke.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Limits</title>
+      <link>https://gohugo-theme-ananke.pages.dev/limits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gohugo-theme-ananke.pages.dev/limits/</guid>
+      <description>Little Snitch has a limit of 200,000 entries per rule group. When I wrote Snitcher in 2019, the Steven Black lists had around 50k entries, so 200k seemed like plenty of overhead.
+But then this happened:
+Hopefully this is linear rather than exponential growth! The jags in the graph look like someone changing the criteria for different categories, so that chunks of hosts are suddenly included or excluded.
+Since Little Snitch has no concept of subscribing to a group-of-groups, I decided to split the lists at the 200,000 limit, which should keep us going for a while.</description>
+    </item>
+    
   </channel>
 </rss>

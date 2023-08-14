@@ -91,6 +91,9 @@
 <p>These groups are generated from the raw host files on Steven Black&rsquo;s <a href="https://github.com/StevenBlack/hosts">unified hosts project</a>.</p>
 <p><em>Disclaimer: I make no claims or warranty for the veracity or accuracy of any of the source lists. In particular categorising something as &ldquo;fake news&rdquo; may be a matter of opinion. I just want to make them easier to consume from Little Snitch. I am not a lawyer. Use these at your own risk. You can always explicitly override false positives.</em></p>
 <h2 id="the-rule-groups">The rule groups</h2>
+<p>Each list has been split into two rule groups because they <a href="/limits/">exceed the limit</a> of a Little Snitch rule group.</p>
+<p>This is a breaking change, because I didn&rsquo;t want people subscribing to just the first chunk of a block list and thinking they have the whole thing.</p>
+<p><em>This means you will have to resubscribe to all the rule groups for the list you want.</em></p>
 <h3 id="unified-adware-43-malware">Unified (adware + malware)</h3>
 <ul>
 <li>Part 1 <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules.snitcher.dannorth.net%2Funified-00.lsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/unified-00.lsrules">download</a></li>
@@ -98,8 +101,8 @@
 </ul>
 <h3 id="unified-43-fake-news">Unified + fake news</h3>
 <ul>
-<li>Part 1 <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules.snitcher.dannorth.net%2Ffakenews-00.lsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/fakenews-00.lsrules">download</a></li>
-<li>Part 2 <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules.snitcher.dannorth.net%2Ffakenews-01.lsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/fakenews-01.lsrules">download</a></li>
+<li>Part 1 <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules.snitcher.dannorth.net%2Ffake-news-00.lsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/fake-news-00.lsrules">download</a></li>
+<li>Part 2 <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules.snitcher.dannorth.net%2Ffake-news-01.lsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/fake-news-01.lsrules">download</a></li>
 </ul>
 <h3 id="unified-43-gambling">Unified + gambling</h3>
 <ul>
@@ -122,8 +125,7 @@
 <li>Part 2 <a href="x-littlesnitch:subscribe-rules?url=https%3A%2F%2Frules.snitcher.dannorth.net%2Feverything-01.lsrules">subscribe</a>, <a href="https://rules.snitcher.dannorth.net/everything-01.lsrules">download</a></li>
 </ul>
 <p>The scripts for the rule group generator and the source for this website are at <a href="https://github.com/tastapod/snitcher">https://github.com/tastapod/snitcher</a>.</p>
-<p>The site was built using <a href="https://gohugo.io/">Hugo</a> and uses the <a href="https://themes.gohugo.io/themes/gohugo-theme-ananke/">Ananke</a> theme.</p>
-<p>© <a href="https://github.com/tastapod/">Daniel Terhorst-North</a>, <a href="https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE">all rights reserved</a></p>
+<p><em>This site was built with <a href="https://gohugo.io/">Hugo</a> and uses the <a href="https://themes.gohugo.io/themes/gohugo-theme-ananke/">Ananke</a> theme.</em></p>
 
   </article>
   
@@ -138,7 +140,7 @@
     <footer class="bg-mid-gray bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://gohugo-theme-ananke.pages.dev/" >
-    &copy;  Little Snitch Rule Groups 2023 
+    &copy;  Daniel Terhorst-North 2023 
   </a>
     <div>
 <div class="ananke-socials">

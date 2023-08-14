@@ -4,12 +4,14 @@ publishDir = "../docs"
 resourceDir = "../resources"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 title = "Little Snitch Rule Groups"
+copyright = "Daniel Terhorst-North"
 
 DefaultContentLanguage = "en"
 # SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 enableRobotsTXT = true
 googleAnalytics = ""
+disableKinds = ["taxonomy", "term"]
 
 [sitemap]
 changefreq = "weekly"

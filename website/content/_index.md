@@ -10,9 +10,15 @@ _Disclaimer: I make no claims or warranty for the veracity or accuracy of any of
 
 ## The rule groups
 
+Each list has been split into two rule groups because they [exceed the limit](/limits/) of a Little Snitch rule group.
+
+This is a breaking change, because I didn't want people subscribing to just the first chunk of a block list and thinking they have the whole thing.
+
+_This means you will have to resubscribe to all the rule groups for the list you want._
+
 {{% rule-group-block "unified" "Unified (adware + malware)" %}}
 
-{{% rule-group-block "fakenews" "Unified + fake news" %}}
+{{% rule-group-block "fake-news" "Unified + fake news" %}}
 
 {{% rule-group-block "gambling" "Unified + gambling" %}}
 
@@ -24,6 +30,4 @@ _Disclaimer: I make no claims or warranty for the veracity or accuracy of any of
 
 The scripts for the rule group generator and the source for this website are at <https://github.com/tastapod/snitcher>.
 
-The site was built using [Hugo](https://gohugo.io/) and uses the [Ananke](https://themes.gohugo.io/themes/gohugo-theme-ananke/) theme.
-
-&copy; [Daniel Terhorst-North](https://github.com/tastapod/), [all rights reserved](https://raw.githubusercontent.com/tastapod/snitcher/master/LICENSE)
+_This site was built with [Hugo](https://gohugo.io/) and uses the [Ananke](https://themes.gohugo.io/themes/gohugo-theme-ananke/) theme._
