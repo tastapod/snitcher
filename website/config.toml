@@ -1,4 +1,4 @@
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+baseURL = "https://snitcher.dannorth.net"
 languageCode = "en-gb"
 publishDir = "../docs"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
