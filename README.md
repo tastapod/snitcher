@@ -57,5 +57,5 @@ Pull requests are welcomed! There is a pre-commit hook that ensures that the web
 To enable this, set the githooks directory to `resources/githooks` like this:
 
 ```shell
-git config --local core.hooksPath resources/githooks
+git config --local core.hooksPath .githooks
 ```

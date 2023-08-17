@@ -1,7 +1,6 @@
 baseURL = "https://gohugo-theme-ananke.pages.dev"
 languageCode = "en-gb"
 publishDir = "../docs"
-resourceDir = "../resources"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 title = "Little Snitch Rule Groups"
 copyright = "Daniel Terhorst-North"

@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+# Check if files changed in `website`
+if git diff-index --cached --name-only HEAD | grep '^website/' > /dev/null; then
+    # Rebuild the site
+    (cd website && HUGO_ENV=production hugo --cleanDestinationDir >/dev/null)
+
+    # Make sure generated website files are checked in too
+    if git status --porcelain --untracked-files=all docs | grep -q '^.[^ ]'; then
+        echo 'COMMIT FAILED: It looks like you forgot to generate the site!'
+        exit 1
+    fi
+fi
