@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://gohugo-theme-ananke.pages.dev/sitemap.xml
