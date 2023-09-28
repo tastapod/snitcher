@@ -7,6 +7,8 @@ URL="${URL:-https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts}"
 NAME="${NAME:-Steven Black}"
 PREFIX="${PREFIX:-unified}"
 
+working_file="$PREFIX.working"
+
 # yyyy-mm-dd
 local now="$(date -Iseconds -u) UTC"
 
@@ -14,8 +16,9 @@ local now="$(date -Iseconds -u) UTC"
 # due to a limitation in Little Snitch rule group size
 curl --silent "$URL" \
     | awk '$1 == "0.0.0.0" && $2 != "0.0.0.0" {printf "    \"%s\",\n", $2}' \
-    | sort | split -d -l 200000 - part-
-
+    | sort > "$working_file"
+split -d --number l/2 "$working_file" part-
+rm "$working_file"
 
 for part in part-*; do
   local part_num="${part#part-}"
