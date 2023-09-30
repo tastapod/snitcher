@@ -35,7 +35,7 @@ $hosts
 
 `./snitcher.sh`
 
-Outputs `$PREFIX-00.lsrules`, `$PREFIX-01.lsrules`, ... as rule files split into chunks of 200,000 entries, since this is a limit in Little Snitch.
+Outputs `$PREFIX-00.lsrules`, `$PREFIX-01.lsrules` as two rule files split evenly, since Little Snitch has a limit of 200,000 hosts in a rule file, and some of the lists have been exceeding this.
 
 ## Environment variables
 
