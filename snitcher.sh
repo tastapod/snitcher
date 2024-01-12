@@ -17,7 +17,8 @@ local now="$(date -Iseconds -u) UTC"
 curl --silent "$URL" \
     | awk '$1 == "0.0.0.0" && $2 != "0.0.0.0" {printf "    \"%s\",\n", $2}' \
     | sort > "$working_file"
-split -d --number l/2 "$working_file" part-
+local chunk_size=$(( ($(wc -l < "$working_file") + 1) / 2))
+split -d -l $chunk_size "$working_file" part-
 rm "$working_file"
 
 for part in part-*; do
