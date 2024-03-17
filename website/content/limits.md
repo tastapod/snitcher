@@ -8,7 +8,7 @@ But then this happened:
 {{< figure
     src="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts_file_size_history.png"
     link="https://github.com/StevenBlack/hosts/#unified-hosts-file-with-base-extensions"
-    alt="Hosts file size history graph from 2018 to 2023"
+    alt="Hosts file size history graph from 2018 to present"
 >}}
 
 Hopefully this is linear rather than exponential growth! The jags in the graph look like someone changing the criteria for different categories, so that chunks of hosts are suddenly included or excluded.
