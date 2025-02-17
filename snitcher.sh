@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 set -e # Bail if anything goes wrong
 
@@ -33,7 +33,7 @@ for part in part-*; do
 {
   "name" : "$NAME (part $part_num)",
   "description" : "Generated from $URL",
-  "denied-remote-notes" : "Retrieved on $NOW from list $NAME",
+  "denied-remote-notes" : "Retrieved on $now from list $NAME",
   "denied-remote-hosts" : [
 $hosts
   ]
